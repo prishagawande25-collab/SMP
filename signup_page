@@ -1,7 +1,16 @@
 <html>
 <body>
-<p>Name - </p>
-<p>Mail ID - </p>
-<button type="button">Submit!</button>
+<h3>Sign Up - </h3> <br> 
+  <form>
+    
+<label>Enter your name-</label>
+    <input type = "text" name = "username">
+      <br><br>
+        
+      <label>Mail ID - </label>
+        <input type = "text" name="id">
+          <br><br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>

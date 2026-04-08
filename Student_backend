@@ -3,3 +3,18 @@ print(f"Welcome {name}!")
 print("If you don't respond before the deadline, you'll be counted as attending.")
 print("Breakfast-")
 
+def on_click():
+    print("Button clicked!")
+
+# Create main window
+root = tk.Tk()
+root.title("Button Example")
+
+# Create a button
+button = tk.Button(root, text="Click Me", command=on_click)
+
+# Place the button
+button.pack()
+
+# Run the app
+root.mainloop()

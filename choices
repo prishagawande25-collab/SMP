@@ -18,11 +18,11 @@
 <button onclick="showMsg('Dinner: Yes')">Yes</button>
 <button onclick="showMsg('Dinner: No')">No, I'll Skip</button>
 
-<h3 id="message"></h3>
+<h3 id="Message"></h3>
 
 <script>
 function showMsg(text) {
-    document.getElementById("message").innerHTML = text + " selected!";
+    document.getElementById("Message").innerHTML = "Thank you for selecting!You have earned 3 credits.";
 }
 </script>
 

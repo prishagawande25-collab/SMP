@@ -3,9 +3,9 @@
 <title>SMP-Smart Mess Planner</title>
 </head>
 <body>
-<a href="">Sign up</a>
-<p>Name- </p>
-<p>Mail Id- </p>
-<button type="button">Submit!</button>
+<a href="">Sign up as a student</a>
+<a href="">Log in as a student</a>
+<a href="">Sign up as Coordinator</a>
+
 </body>
 </html>

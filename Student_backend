@@ -1,2 +1,3 @@
 print(f"Welcome {name}!")
+print("If you don't respond before the deadline, you'll be counted as attending.")
 

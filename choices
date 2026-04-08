@@ -1,7 +1,17 @@
 <html>
 <head>
-
+<style>
+</style>
 </head>
 <body>
-<p>Breakfast- </p>
-<button type="submit" value="Yes"></button>
+<p>Will You be attending breakfast today? </p>
+<button type="submit" value="Yes">Yes.</button>
+<button type="submit" value="No">No,I'll Skip.</button>
+<p>Will You be attending Lunch today? </p>
+<button type="submit" value="Yes">Yes.</button>
+<button type="submit" value="No">No,I'll Skip.</button>
+<p>Will You be attending Dinner today? </p>
+<button type="submit" value="Yes">Yes.</button>
+<button type="submit" value="No">No,I'll Skip.</button>
+</body>
+</html>

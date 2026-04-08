@@ -1,17 +1,30 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
 </style>
 </head>
 <body>
+
 <p>Will You be attending breakfast today? </p>
-<button type="submit" value="Yes">Yes.</button>
-<button type="submit" value="No">No,I'll Skip.</button>
+<button onclick="showMsg('Breakfast: Yes')">Yes</button>
+<button onclick="showMsg('Breakfast: No')">No, I'll Skip</button>
+
 <p>Will You be attending Lunch today? </p>
-<button type="submit" value="Yes">Yes.</button>
-<button type="submit" value="No">No,I'll Skip.</button>
+<button onclick="showMsg('Lunch: Yes')">Yes</button>
+<button onclick="showMsg('Lunch: No')">No, I'll Skip</button>
+
 <p>Will You be attending Dinner today? </p>
-<button type="submit" value="Yes">Yes.</button>
-<button type="submit" value="No">No,I'll Skip.</button>
+<button onclick="showMsg('Dinner: Yes')">Yes</button>
+<button onclick="showMsg('Dinner: No')">No, I'll Skip</button>
+
+<h3 id="message"></h3>
+
+<script>
+function showMsg(text) {
+    document.getElementById("message").innerHTML = text + " selected!";
+}
+</script>
+
 </body>
 </html>
